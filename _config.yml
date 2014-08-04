@@ -1,0 +1,8 @@
+relative_permalink: false
+permalink: none 
+exclude: ["Gemfile","Gemfile.lock","newpost","notes.txt"]
+name: Askew's Stuff
+description: David Askew's place on the web.
+url: http://www.aske.ws
+highlighter: pygments
+
