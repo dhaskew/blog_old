@@ -1,0 +1,45 @@
+/*START*/ 
+/* https://gist.github.com/jnrbsn/578379 */
+/* Better styles for embedding GitHub Gists */
+.gist{font-size:13px;line-height:18px;margin-bottom:20px;width:100%}
+.gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
+.gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:13px !important}
+.gist-meta a{color:#26a !important;text-decoration:none}
+.gist-meta a:hover{color:#0e4071 !important}
+/* https://gist.github.com/jnrbsn/578379 */
+/*END*/ 
+
+
+/*START*/ 
+/* http://www.cowboycoded.com/2011/04/08/customizing-your-embedded-gists-with-css/ */
+ 
+.gist{
+  margin: 15px 0 !important;
+}
+ 
+.gist-file{
+  border: none !important;
+}
+ 
+.gist-meta{
+  border: 1px solid #D2d2d2 !important;
+  padding: 12px !important;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+ 
+}
+ 
+.gist-data{
+/*  padding: 15px !important; */
+  border: 1px solid #D2d2d2 !important;
+  border-bottom: none !important;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+}
+
+/*END*/ 
+/* http://www.cowboycoded.com/2011/04/08/customizing-your-embedded-gists-with-css/ */

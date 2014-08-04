@@ -1,0 +1,5 @@
+jekyll --auto --server
+
+#create a stylesheet based on the pygments style "default"
+
+pygmentize -S default -f html > css/pygments_default.css
