@@ -1,0 +1,19 @@
+---
+layout: post
+title: Test Post - Cat 5
+category: cat5
+tags: ruby jekyll
+---
+
+h1. {{ page.title }}
+
+p(meta). 15 Nov 2012 - David Askew
+
+I should write a post about setting up RSS with Jekyll/S3/feedburner, while maintaining owenership of the RSS feed via S3 redirects.
+
+http://aws.typepad.com/aws/2012/10/amazon-s3-support-for-website-redirects.html
+via (http://stackoverflow.com/questions/2272835/amazon-s3-object-redirect)
+
+
+
+
