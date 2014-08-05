@@ -15,4 +15,5 @@ If you have this problem with OSX not detecting the monitor configuration change
 
 {% keyboard_shortcut command F2 %}
 
+
 I hope that helps!
