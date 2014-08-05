@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Test Post #2
+title: Test Post 2 - Custom Liquid
 category: posts
 tags: ruby jekyll
 ---
+
+
+{% keyboard_shortcut command F2 f3 A B  %}
 
 h1. {{ page.title }}
 
