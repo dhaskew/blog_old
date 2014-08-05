@@ -205,3 +205,31 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+/* Custom Stuff */
+
+.key_command  {
+  display: inline-block;
+  width:85px;
+  height:20px;
+  margin:0 10px 0 0;
+  overflow:hidden;
+  padding:10px;
+  background-color:#C8C8C8;
+  border:1px solid #afcde3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.key_function {
+  display: inline-block;
+  width:20px;
+  height:20px;
+  margin:0 10px 0 0;
+  overflow:hidden;
+  padding:10px;
+  background-color:#C8C8C8;
+  border:1px solid #afcde3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
