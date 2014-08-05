@@ -1,3 +1,6 @@
+# http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/
+# http://jekyllrb.com/docs/plugins/
+
 module Jekyll
     class KeyboardShortcutTag < Liquid::Tag
 
