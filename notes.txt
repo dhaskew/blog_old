@@ -5,3 +5,9 @@ pygmentize -S default -f html > css/pygments_default.css
 
 #start up the server and work on a draft
 jekyll serve --watch --drafts -t --baseurl ""
+
+#publish the site - dry run
+s3_website push --dry-run
+
+#publish the site
+s3_website push

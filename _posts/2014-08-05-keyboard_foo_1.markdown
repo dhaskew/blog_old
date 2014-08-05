@@ -11,7 +11,7 @@ I use external monitors all the time with my MacBook.  I've [mentioned before]({
 
 # Solution
 
-If you have this problem with OSX not detecting the monitor configuration change, then execute the following keyboard shortcut:
+If you have this problem with OSX and it is not detecting the monitor configuration change, then execute the following keyboard shortcut:
 
 {% keyboard_shortcut command F2 %}
 
