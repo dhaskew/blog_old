@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title%}{{page.title}}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="{{site.description }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+
+   <meta name="author" content="David H. Askew" />
+   <link href="http://www.aske.ws/feed.xml" rel="alternate" title="David Askew's Feed" type="application/atom+xml" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!-- Code Highlighting -->
+   <link rel="stylesheet" href="/css/pygments_default.css" type="text/css" media="screen, projection" />
+
+   <!-- Custum Gist Overrides -->
+   <link rel="stylesheet" href="/css/gist_custom.css" type="text/css" media="screen, projection" />
+
+   <!-- Favicon - generated using http://antifavicon.com/ -->
+   <link rel="icon" href="/images/favicon.ico" type=”image/x-icon” />
+
+   {% include typekit.html %}
+
+   {% include disqus.html %}
+
+</head>
