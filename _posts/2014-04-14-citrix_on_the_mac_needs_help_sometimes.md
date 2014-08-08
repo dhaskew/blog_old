@@ -21,13 +21,13 @@ If only there was a way to ensure that [SizeUp](http://www.irradiatedsoftware.co
 
 # Requirements
 
-* [Eventscripts] (http://www.mousedown.net/mouseware/EventScripts.html) from Mousedown- $3.99 [App Store] (http://itunes.apple.com/app/eventscripts/id525319418?mt=12)
+* [Eventscripts](http://www.mousedown.net/mouseware/EventScripts.html) from Mousedown- $3.99 [App Store](http://itunes.apple.com/app/eventscripts/id525319418?mt=12)
 * [SizeUp](http://www.irradiatedsoftware.com/sizeup/) from Irradiated Software - $13
 * A little applescript knowledge
 
 Note: SizeUp has a trial mode that is fully funtional.  It will, however, ask you to spend some money on occasion.
 
-The following script, when tied to the "Application will launch" event in [Eventscripts] (http://www.mousedown.net/mouseware/EventScripts.html) will do just what we need.
+The following script, when tied to the "Application will launch" event in [Eventscripts](http://www.mousedown.net/mouseware/EventScripts.html) will do just what we need.
 
 #Solution
 

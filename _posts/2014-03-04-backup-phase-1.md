@@ -21,7 +21,7 @@ Being a nerd I thought, how can I help myself?  Surely I must be able to automat
 
 # Requirements
 
-* [Eventscripts] (http://www.mousedown.net/mouseware/EventScripts.html) - $3.99 [App Store] (http://itunes.apple.com/app/eventscripts/id525319418?mt=12)
+* [Eventscripts](http://www.mousedown.net/mouseware/EventScripts.html) - $3.99 [App Store](http://itunes.apple.com/app/eventscripts/id525319418?mt=12)
 * A little applescript knowledge
 
 Note: Eventscripts support for the "Power Events" I use here are in BETA as I write this and should be a part of the official release by the time you read this.  In point of fact, this software was used in part because the author of the app agreed to add this functionality at my request.  This feature didn't exist when I discovered the application, but one email later and the author was more than happy to help me.  

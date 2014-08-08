@@ -13,6 +13,7 @@ I use a variety of cool applictions in my personal and professional life.  I tho
 If you spend a lot of time moving files around from one place to another or you want to keep your downloads folder organized automatically, then maybe you should check out [Hazel](http://www.noodlesoft.com/hazel.php).  Hazel is a rules engine you can use to watch files and folders based on criteria you set and then you can take some type of automated action as a result. I personally use it for all kinds of stuff.
 
 Examples:
+
 * I keep my downloads folder organized by file type.  Music/MP3's go in a folder, images in another.
 * I auto delete files in the Trash after they have been there for a month.
 * I automatically OCR my recent scans and rename files based on file content.
@@ -26,6 +27,7 @@ I love [EventScripts](http://www.mousedown.net/mouseware/EventScripts.html).  I 
 If you haven't figured it out already, EventScripts will fire off an Applescript script or a shell script in response to events you can trigger on.
 
 Example Events:
+
 * A volume is mounted/unmounted
 * USB device attached
 * Headphones getting connected
@@ -36,7 +38,8 @@ A full list of events can be found [here](http://mousedown.net/mouseware/Event_P
 
 If your primary workstation is a laptop, then [ControlPlane](http://www.controlplaneapp.com/) may be a tool you didn't realize you needed.   I work from a variety of differnt places, sometimes because I travel for work, and other times because I just want to be somewhere new like a coffee shop down the street.  It would be nice if my computer would disable the screensaver password when I'm home and reenable it when I leave.  Luckly, [ControlPlane](http://www.controlplaneapp.com/) can help us with exactly these types of situations. Just like EventScripts, [ControlPlane](http://www.controlplaneapp.com/) is a way to trigger things to happen.  They both run in the background, watching for specific things to happen.  But, unlike EventScripts, [ControlPlane](http://www.controlplaneapp.com/) doesn't require you to write any code unless you want to. Many predefined actions are already available.  
 
-Example actions: 
+Example actions:
+ 
 * Toggle screensaver passwords
 * Toggle printer and file sharing
 * Change your desktop background
