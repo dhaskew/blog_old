@@ -7,3 +7,4 @@ url: http://www.aske.ws
 baseurl: http://www.aske.ws
 highlighter: pygments
 markdown: kramdown
+encoding: utf-8
