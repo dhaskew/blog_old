@@ -9,10 +9,3 @@ highlighter: pygments
 markdown: kramdown
 encoding: utf-8
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
