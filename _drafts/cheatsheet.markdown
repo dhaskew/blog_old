@@ -11,5 +11,13 @@ Using keyboard shortcuts is one of the simplest things you can do to make your c
 
 When you do, you should get something like this:
 
-![CheatSheet Example Image]({{site.baseurl}}/images/finder_cheatsheet_example_1_small.jpg "Optional title")
+![CheatSheet Example Image]({{site.baseurl}}/images/finder_cheatsheet_example_1_small.jpg "CheatSheet Finder Example")
+
+The above screenshot is what you might see if you where using Finder.
+
+Get it [here](http://www.cheatsheetapp.com/CheatSheet/).
+
+Experiment.
+
+Sit back and enjoy the fact that you are winning at life.
 
