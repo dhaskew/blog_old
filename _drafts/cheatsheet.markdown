@@ -13,7 +13,7 @@ When you do, you should get something like this:
 
 ![CheatSheet Example Image]({{site.baseurl}}/images/finder_cheatsheet_example_1_small.jpg "CheatSheet Finder Example")
 
-The above screenshot is what you might see if you where using Finder.
+The above screenshot is what you might see if you are using Finder.
 
 Get it [here](http://www.cheatsheetapp.com/CheatSheet/).
 
