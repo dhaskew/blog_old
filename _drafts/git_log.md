@@ -5,22 +5,25 @@ tags: osx shortcuts textexpander
 layout: post
 ---
 
-# why
+I am always looking to save time wherever I can.  Its just my nature.  I use [cheatsheet]({% post_url 2014-08-25-cheatsheet %}) to help me learn keyboard shortcuts, I use [automation software]({% post_url 2014-07-17-things_i_love_automation_software_part1 %}) to help with routine tasks, and I even [write some applescript]({% post_url 2014-03-04-backup-phase-1 %}) if the need arises.  All these types of things help me get stuff done.   One of the other ways I get stuff done is to use [TextExpander](http://smilesoftware.com/TextExpander/index.html) for text expansion.
 
-I am always looking to save time wherever I can.  
+What is text expansion you ask?  Good question!  Here is an example of a command I type a lot:
 
-# code snipit
+{% highlight bash linenos=table %}
+git log --graph --decorate --pretty=oneline --abbrev-commit --color
+{% endhighlight %}
 
-# screenshot
+It produces output like this:
 
-![CheatSheet Example Image]({{site.baseurl}}/images/finder_cheatsheet_example_1_small.jpg "CheatSheet Finder Example")
+![TextExpander Git Example Image]({{site.baseurl}}/images/git_log_textexpander.jpg  "TextExpander Git Example")
 
+It sure would be nice if we could just type a shortcut ";glog" and have it _expand_ into the actual command we need.  That is precisely how [TextExpander](http://smilesoftware.com/TextExpander/index.html) helps us. It runs in the background and anytime I type ";glog" in a supported application (basically everything), the text gets _expanded_ to:
 
-Get it [here](http://www.cheatsheetapp.com/CheatSheet/).
+{% highlight bash linenos=table %}
+git log --graph --decorate --pretty=oneline --abbrev-commit --color
+{% endhighlight %}
 
-# textexpander info
-
-# closing
+Go [get it](http://smilesoftware.com/TextExpander/index.html) 
 
 I hope this helps.
 
