@@ -5,7 +5,7 @@ title: Things I Love - Automation Software - Part 1
 category: posts
 ---
 
-I use a variety of cool applictions in my personal and professional life.  I thought I would share some of my favorite Mac OSX based automation tools with you here.  Some are free, some aren't.  All of them are useful.
+I use a variety of cool applictions in my personal and professional life.  I thought I would share some of my favorite Mac OSX based automation tools with you here.  Some are free, some are not.  All of them are useful.
 
 
 # Hazel
