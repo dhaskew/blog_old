@@ -22,7 +22,7 @@ The potential use cases for [Hazel](http://www.noodlesoft.com/hazel.php) are too
 
 # EventScripts
 
-I love [EventScripts](http://www.mousedown.net/mouseware/EventScripts.html).  I use it to help with [backups](http://www.aske.ws/posts/backup-phase-1.html).  I use it to help deal with annoying [Citrix](http://www.aske.ws/posts/citrix_on_the_mac_needs_help_sometimes.html) issues. I use it in many other ways as well.  Stay tuned, I'm sure I will write about another use case soon enough.
+I love [EventScripts](http://www.mousedown.net/mouseware/EventScripts.html).  I use it to help with [backups]({{site.baseurl}}/posts/backup-phase-1.html).  I use it to help deal with annoying [Citrix]({{site.baseurl}}/posts/citrix_on_the_mac_needs_help_sometimes.html) issues. I use it in many other ways as well.  Stay tuned, I'm sure I will write about another use case soon enough.
 
 If you haven't figured it out already, EventScripts will fire off an Applescript script or a shell script in response to events you can trigger on.
 
