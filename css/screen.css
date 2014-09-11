@@ -251,3 +251,9 @@ img{
   width:100%;
   height:auto;
 }
+
+.twitter-tweet {
+  text-align:center;
+  display:inline-block;
+  align-content:center;
+}
