@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How this blog works
+title: How This Blog Works
 category: posts
 tags: jekyll
 ---
