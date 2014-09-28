@@ -38,7 +38,7 @@ Updating the $EDITOR environment variable will impact more than just [Pry](http:
 export EDITOR="vim"
 {% endhighlight %}
 
-If you only want to use [Vim] with [Pry] then you probably just want to update the the [Pry] config file. (Usually: <span class="configfile">~/.pryrc</span>)
+If you only want to use [Vim] with [Pry] then you probably just want to update the [Pry] config file. (Usually: <span class="configfile">~/.pryrc</span>)
 
 {% highlight bash linenos=table %}
 Pry.config.editor = "vim"
