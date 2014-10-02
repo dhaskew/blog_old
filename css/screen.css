@@ -152,7 +152,7 @@ ul.posts {
 #post_title{
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: #a00;
   font-size: 135%;
   font-weight:bold;
@@ -262,3 +262,7 @@ img{
   background-color:#eee;
 }
 
+#post_subtitle {
+  color: #a00;
+  text-align:center;
+}

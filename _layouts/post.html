@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<div id="post_title">
-{{page.title}}
-</div>
+<div id="post_title">{{page.title}}</div>
+{% if page.subtitle %}
+<div id="post_subtitle">{{page.subtitle}}</div>
+{% endif %}
 
 <div id="post">  
 {{ content }}
