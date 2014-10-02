@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evernote Sandbox - Data Import Process
-subtitle: (Or Lack There Of)
+subtitle: (Or Lack Thereof)
 category: posts
 tags: evernote
 ---
