@@ -7,7 +7,7 @@ title: David H. Askew
   <h1>Blog Posts</h1>
   
   
-  <ul class="posts">
+  <ul class="posts list-unstyled">
     {% for post in site.posts %}
       <li><span>{{ post.date | date: "%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
       
@@ -21,10 +21,4 @@ title: David H. Askew
     {% endfor %}
   </ul>
   
-  
-  <h1>Open Source Projects</h1>
-  <ul class="posts">
-    <li><a href="http://github.com/dhaskew/ratpack">Ratpack:</a> Sinatra App Template</li>
-    <li><a href="http://github.com/dhaskew/applescripts">Applescripts:</a> My Applescript Collection</li>	 
-  </ul>
 </div>
