@@ -53,7 +53,8 @@ TerminalNotifier.notify("Bing: Refresh Started",
 
 enclosures = []
 
-downloads_dir = ENV["BING_DIR"] # should be set to something like "/Users/username/Pictures/"
+downloads_dir = ENV["BING_DIR"] 
+# should be set to something like "/Users/username/Pictures/"
 
 if(!File.exists?(downloads_dir))
   @log.fatal "The folder specified in BING_DIR (#{ENV["BING_DIR"]}) does not exist! 

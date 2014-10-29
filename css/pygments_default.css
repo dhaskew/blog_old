@@ -1,14 +1,20 @@
 table.highlighttable {
   font-size: 80%;
   width: 100%;
-  /*table-layout: fixed; */
+  /*background-color: #ffffcc;*/ 
+  table-layout: auto;
+}
+
+.linenos {
+  width: 6%;
+  max-width: 6%;
 }
 
 .highlighttable tr td:first-child {
-    width: 30px;
-    text-align:right
+    text-align:right;
+    width: 6%;
+    max-width: 6%;
 }
-
 
 .hll { background-color: #ffffcc }
 .c { color: #408080; font-style: italic } /* Comment */

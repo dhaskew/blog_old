@@ -1,1 +1,62 @@
+/* Custom Stuff */
+
+.key_command  {
+  display: inline-block;
+  width:105px;
+  height:40px;
+  margin:0 10px 0 0;
+  overflow:hidden;
+  padding:10px;
+  background-color:#C8C8C8;
+  border:1px solid #afcde3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.key_normal {
+  display: inline-block;
+  width:20px;
+  height:20px;
+  margin:0 10px 0 0;
+  overflow:hidden;
+  padding:10px;
+  background-color:#C8C8C8;
+  border:1px solid #afcde3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.key_function {
+  display: inline-block;
+  width:40px;
+  height:40px;
+  margin:0 10px 0 0;
+  overflow:hidden;
+  padding:10px;
+  background-color:#C8C8C8;
+  border:1px solid #afcde3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#post img{
+  width:100%;
+  height:auto;
+}
+
+.twitter-tweet {
+  text-align:center;
+  display:inline-block;
+  align-content:center;
+}
+
+.configfile {
+  background-color:#eee;
+}
+
+#post_subtitle {
+  color: #a00;
+  text-align:center;
+}
+
 body { padding-top: 50px; }
