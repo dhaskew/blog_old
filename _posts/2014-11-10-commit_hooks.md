@@ -51,7 +51,7 @@ If you where to execute a commit with a forbidden phrase in it you would get a m
 
 ![Rejected Commit]({{site.baseurl}}/images/commit_rejected.jpg "Rejected Commit")
 
-As you can(?) tell from the screenshot above, I am actually tring to commit the commit-hook itself into git. It's a little [meta], I know. In this case, It is actually quite appropriate to check in the code this way. So that begs the question ...
+As you can tell from the screenshot above, I am actually tring to commit the commit-hook itself into git. It's a little [meta], I know. In this case, it is actually quite appropriate to check in the code this way. So that begs the question ...
 
 What if I want to overide [Git hooks]? 
 
