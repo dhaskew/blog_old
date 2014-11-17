@@ -9,11 +9,7 @@
     <div class="site">
       
       <div class="row">
-        {% if page.category == "posts" %}
         <div class="col-xs-4 text-center">
-        {% else %}
-        <div class="col-xs-6 text-center">
-        {% endif %}
           <div>
             <h1>Info</h1>
             <img src="/images/headshot1.png" class="img-responsive img-rounded center-block">
@@ -22,7 +18,7 @@
             <p><h4>I build things</h4></p>
             <p><a class="extra" href="/">Homepage</a></p>
             <p><a class="extra" href="/contact.html">Contact Me</a></p>
-            <p><a class="extra" href="/about.html">About</a></p>
+            <!-- <p><a href="/about.html">About</a></p> -->
           </div>
           
           <div class="info">
@@ -50,11 +46,7 @@
           </div>
         </div>
         
-        {% if page.category == "posts" %}
         <div class="col-xs-8">
-        {% else %}
-        <div class="col-xs-6">
-        {% endif %}
           {{ content }}
         </div>
       </div>
@@ -64,7 +56,7 @@
   </div>
 
   {% include google_analytics.html %}
-
+	
 </body>
 
 </html>
