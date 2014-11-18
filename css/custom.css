@@ -54,9 +54,16 @@
   background-color:#eee;
 }
 
+#post_title {
+  text-align: center;
+  font-size: 3em;
+}
 #post_subtitle {
   color: #a00;
   text-align:center;
 }
 
-body { padding-top: 50px; }
+body { 
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
