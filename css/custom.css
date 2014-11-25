@@ -15,8 +15,8 @@
 
 .key_normal {
   display: inline-block;
-  width:20px;
-  height:20px;
+  width:40px;
+  height:40px;
   margin:0 10px 0 0;
   overflow:hidden;
   padding:10px;
@@ -24,6 +24,7 @@
   border:1px solid #afcde3;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .key_function {
