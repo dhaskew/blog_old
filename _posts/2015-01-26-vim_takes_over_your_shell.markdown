@@ -16,7 +16,7 @@ As luck would have it, the [Bash] shell has a "vi" mode.  Luckily, [Vim] is basi
 set -o vi
 {% endhighlight %}
 
-Add the above to your ".bashrc", restart your shell, and experiment with all the new [Vim] style shortcuts you can now use.
+Add the above to your <span class="configfile">~/.bashrc</span>, restart your shell, and experiment with all the new [Vim] style shortcuts you can now use.
 
 You're welcome.
 
