@@ -16,6 +16,14 @@ module Jekyll
         words_array = @text.split(' ').each do |word|
           if(word.downcase == "command")
             insert += "<div class='key_command'>#{word}  ⌘</div>"
+          elsif(word.downcase == "space")
+            insert += "<div class='key_space'>#{word}</div>"
+          elsif(word.downcase == "control")
+            insert += "<div class='key_control'>#{word}</div>"
+          elsif(word.downcase == "return")
+            insert += "<div class='key_return'>#{word}</div>"
+          elsif(word.downcase == "option")
+            insert += "<div class='key_option'>#{word}</div>"
           elsif(FUNCTION_KEYS.count(word.upcase) == 1)
             insert += "<div class='key_function'>#{word}</div>"
           else
