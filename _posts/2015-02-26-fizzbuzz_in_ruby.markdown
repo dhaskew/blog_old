@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FizzBuzz - Ruby 
+title: Fizz Buzz - Ruby 
 category: posts
 tags: ruby fizzbuzz 
 ---
@@ -12,7 +12,7 @@ For the uninitiated, a [Fizz Buzz] program will count up from 1 to some number, 
 * 'Fizz', if the number is evenly divisable by 3
 * 'Buzz', if the number is evenly divisable by 5
 * 'FizzBuzz', if the number is evenly divisable by 3 and 5
-* or the number itself, if it is not evenly divisable by 3 or 5
+* Or the number itself, if it is not evenly divisable by 3 or 5
 
 Here is an example implementation in Ruby:
 
@@ -64,7 +64,9 @@ Fizz
 Buzz
 {% endhighlight %} 
 
-Pretty cool right? Its ok I guess. You know what whould be really cool? I think it would be really cool to compare this solution against another language and see what we can learn from it. Stay tuned, I'm planning on doing just that.
+Pretty cool right? Its ok I guess. You know what would be really cool? I think it would be really cool to compare this solution against another language and see what we can learn from it. Stay tuned, I'm planning on doing just that.
+
+Finally, review [other implementations in ruby]. We may discuss some in the future as we progress in our investigation.
 
 I hope that helps.
 
@@ -73,4 +75,4 @@ I hope that helps.
 [Fizz Buzz]: http://en.wikipedia.org/wiki/Fizz_buzz
 [software craftmanship]: http://en.wikipedia.org/wiki/Software_craftsmanship
 [singleton]: http://en.wikipedia.org/wiki/Singleton_pattern
-
+[other implementations in ruby]: http://rosettacode.org/wiki/FizzBuzz#Ruby
