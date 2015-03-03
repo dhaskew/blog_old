@@ -5,7 +5,7 @@ category: posts
 tags: shell
 ---
 
-I’m currently [learning C the hard way] and I noticed something new there day while working in the terminal.  I started noticing files that have an [at-sign] when listing files in the shell.
+I’m currently [learning C the hard way] and I noticed something new the other day while working in the terminal.  I started noticing files that have an [at-sign] when listing files in the shell.
 
 Example:
 

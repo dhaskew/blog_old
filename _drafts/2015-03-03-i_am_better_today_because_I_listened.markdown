@@ -13,5 +13,6 @@ Reading a chapter from a book didn’t make my life better, but soaking in the e
 
 [Writing Solid Code]: http://www.amazon.com/Writing-Solid-Code-20th-Anniversary/dp/1570740550/ref=sr_1_1?ie=UTF8&qid=1424376822&sr=8-1&keywords=writing+solid+code
 
-
-[link to making life better post] {% post_url 2015-03-03-what_have_you_done %}
+<!--- 
+[link to making life better post]: 2015-03-03-what_have_you_done
+-->
