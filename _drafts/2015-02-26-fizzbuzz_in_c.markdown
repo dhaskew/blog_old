@@ -5,6 +5,7 @@ category: posts
 tags: C fizzbuzz 
 ---
 
+Continuing on from my [ruby example], I've implemented [Fizz Buzz] in C so we can compare the differences. Hopefully, by comparing the C version withe [ruby example] we'll level up a little on [software craftmanship].
 
 Here is an example implementation in C:
 
@@ -15,9 +16,10 @@ int main ()
 {
     for(int i = 1; i<=25; i++)
     {
-        if (i%3==0) printf("Fizz");
-        if (i%5==0) printf("Buzz");
-        if (i%3  i%5) printf("%d", i);
+        if ((i%3 == 0) && (i%5 == 0)) printf("FizzBuzz");
+        else if (i%3==0) printf("Fizz");
+        else if (i%5==0) printf("Buzz");
+        else printf("%d",i);
         printf("\n");
     }
     return (0);
@@ -27,45 +29,47 @@ int main ()
 
 Stepping thru this code, we see the program does the following:
 
-* Includes a header file .. (why?)
+* Includes a header file so we have access to the printf function
 * Loops thru the numbers between 1 and 25
-* 
+* Prints 'FizzBuzz' if the number is evenly divisable by 3 and 5
+* Or, it prints 'Fizz' if the number is evenly divisable by 3, and not 5
+* Or, it prints 'Buzz' if the number is evenly divisable by 5, and not 3
+* Or, it just prints the number
+* Regardless, it allways prints a newline via the '\n' character
 
-If you ran that code, you would see:
+Note: I'm working on OSX.
 
-{% highlight bash %}
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-11
-Fizz
-13
-14
-FizzBuzz
-16
-17
-Fizz
-19
-Buzz
-Fizz
-22
-23
-Fizz
-Buzz
-{% endhighlight %} 
+Now, lets take another look at our [ruby example]:
 
-Pretty cool right? Its ok I guess. You know what whould be really cool? I think it would be really cool to compare this solution against another language and see what we can learn from it. Stay tuned, I'm planning on doing just that.
+{% highlight ruby %}
+1.upto(25) do |x|
+  output = nil
+  output = output.to_s + 'Fizz' if x % 3 == 0
+  output = output.to_s + 'Buzz' if x % 5 == 0
+  puts output || x
+end
+{% endhighlight %}
 
-I hope that helps.
+Now that we've seen them both, lets discuss some takeaways:
+
+The ruby version doesn't require a build step.
+
+The ruby version has many useful functions, such as 'upto'
+
+The C version is faster:
+
+PROOF GOES HERE
+
+Remember, since Ruby is built in C, its [turtles all the way down].
+
+Explain the trade offs more.
+
+
+
+
 
 [Fizz Buzz]: http://en.wikipedia.org/wiki/Fizz_buzz
 [software craftmanship]: http://en.wikipedia.org/wiki/Software_craftsmanship
-
+[ruby example]: {% post_url 2015-02-26-fizzbuzz_in_ruby %}
+[turtles all the way down]: http://en.wikipedia.org/wiki/Turtles_all_the_way_down
 
