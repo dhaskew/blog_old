@@ -52,21 +52,38 @@ end
 
 Now that we've seen them both, lets discuss some takeaways:
 
-The ruby version doesn't require a build step.
+* The ruby version doesn't require a build step.
+* The ruby version has many useful functions, such as 'upto', that make it more readable.
+* The C version is faster.
 
-The ruby version has many useful functions, such as 'upto'
+The C version is faster?  Where's the proof?
 
-The C version is faster:
+Good question.  If we ran the code in question for a larger number, say 100,000, and time the results, we get:
 
-PROOF GOES HERE
+Ruby:
 
-Remember, since Ruby is built in C, its [turtles all the way down].
+{% highlight ruby %}
+time ./ruby1.rb
 
-Explain the trade offs more.
+real	0m0.513s
+user	0m0.249s
+sys	0m0.155s
 
+{% endhighlight %}
 
+C:
 
+{% highlight c %}
+> time ./c1
 
+real	0m0.170s
+user	0m0.044s
+sys	0m0.053s
+{% endhighlight %}
+
+Remember, since Ruby is built in C, this shouldn't be surprising. Its [turtles all the way down].
+
+That's it for now.  Stay tuned for more analysis.
 
 [Fizz Buzz]: http://en.wikipedia.org/wiki/Fizz_buzz
 [software craftmanship]: http://en.wikipedia.org/wiki/Software_craftsmanship
