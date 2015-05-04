@@ -1,23 +1,15 @@
 ---
 layout: post
-title: Fizzbuzz in R
+title: Fizz Buzz in R
 category: posts
 tags: R fizzbuzz
 ---
 
-I never intended to demonstrate any R [Fizz Buzz] examples, but here we are.
+I never intended to demonstrate any R [Fizz Buzz] examples, but here we are. In the past I've shown a [c example] and a [ruby example].  While I don't yet have an expert grasp of R, I thought I would show some examples of [Fizz Buzz] anyway in the name of [software craftsmanship].
 
-[c example]
+As with any sufficiently mature language, R has many different ways of doing things.  Here are a few of them ...
 
-[ruby example]
-
-[software craftsmanship]
-
-[The Iron Yard]
-
-[new job]
-
-# vectorized method
+# Method 1 - Simple Vectors
 
 {% highlight r %}
 x <- 1:25
@@ -39,8 +31,16 @@ output:
 [22] "22"       "23"       "Fizz"     "Buzz"    
 {% endhighlight %}
 
+Notes:
 
-# fizzbuzz with a loop
+* First we build a pair of R vectors, prepopulated with a sequence of integers from 1 to 25.  We probabably could have gotten away without creating only one of them.
+* We set every value of x to "Fizz" whose corresponding value of y is equally divisable by 3
+* We apply similar logic to "Buzz" and "FizzBuzz".
+* Lastly, we print the vector.
+
+ 
+
+# Method 2 - Simple Loop 
 
 {% highlight r %}
 for (i in 1:25){
@@ -81,24 +81,14 @@ output:
 [1] "Buzz"
 {% endhighlight %}
 
-# indirect loop
-{% highlight r %}
-x <- 1:25
-ifelse(x %% 15 == 0, 'FizzBuzz',
-       ifelse(x %% 5 == 0, 'Buzz',
-              ifelse(x %% 3 == 0, 'Fizz', x)))
-{% endhighlight %}
+Notes:
 
-output:
+* This example is a classic for loop example with some conditionals.
+* It still uses a vector to manage a sequence, but it is implicit and not explicit 
+* The printed output looks a little different between method 1 and method 2 because in the first instance we are printing out a single vector at the end of the operations. In the second instance we are printing out each single character vector element of a larger vector.
+* This version probably isn't as [idiomatic] as the first version.
 
-{% highlight rout %}
- [1] "1"        "2"        "Fizz"     "4"        "Buzz"     "Fizz"     "7"       
- [8] "8"        "Fizz"     "Buzz"     "11"       "Fizz"     "13"       "14"      
-[15] "FizzBuzz" "16"       "17"       "Fizz"     "19"       "Buzz"     "Fizz"    
-[22] "22"       "23"       "Fizz"     "Buzz"  
-{% endhighlight %}
-
-# fancier version
+# Method 3 - Fancy Version 
 {% highlight r %}
 fizzbuzz = function(i, multiples = c(3,5), text = c("Fizz", "Buzz")) {
   words = text[i %% multiples == 0]
@@ -122,24 +112,18 @@ output:
 [22] "22"       "23"       "Fizz"     "Buzz"    
 {% endhighlight %}
 
-# expanded for fizz buzz bang
-{% highlight r %}
-sapply(1:25,function(x) fizzbuzz(x, c(3,5,7), c("Fizz","Buzz","Bang")))
-{% endhighlight %}
+Notes:
 
-output:
-
-{% highlight rout %}
-> sapply(1:25,function(x) fizzbuzz(x, c(3,5,7), c("Fizz","Buzz","Bang")))
- [1] "1"        "2"        "Fizz"     "4"        "Buzz"     "Fizz"     "Bang"    
- [8] "8"        "Fizz"     "Buzz"     "11"       "Fizz"     "13"       "Bang"    
-[15] "FizzBuzz" "16"       "17"       "Fizz"     "19"       "Buzz"     "FizzBang"
-[22] "22"       "23"       "Fizz"     "Buzz"  
-{% endhighlight %}
+* This version shows a lot of [idiomatic] R code.
+* We create a function to be called with a vector of numbers as the first and only required arguement (i).
+* We call the function via another function: sapply
+* The printed output tells us that the return value from the function is a single vector.  
+* I have some things to learn about R before my explanation may be complete ...
 
 
+# Conclusion 
 
-
+Anyway, hopefully this helps you in some way.  I never intended to learn R, but I stumbled across some code on the internet that made me think ... so I thought I would share some of those ideas here.
 
 [Fizz Buzz]: http://en.wikipedia.org/wiki/Fizz_buzz
 [software craftsmanship]: http://en.wikipedia.org/wiki/Software_craftsmanship
@@ -147,4 +131,5 @@ output:
 [c example]: {% post_url 2015-04-01-fizzbuzz_in_c %}
 [The Iron Yard]: http://theironyard.com
 [new job]: {% post_url 2014-12-22-new_job_ionic_security %}
+[idiomatic]: http://www.merriam-webster.com/dictionary/idiomatic
 
