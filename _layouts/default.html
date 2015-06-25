@@ -9,16 +9,12 @@
     <div class="site">
       
       <div class="row">
-        {% if page.category == "posts" %}
-        <div class="col-xs-4 text-center">
-        {% else %}
-        <div class="col-xs-6 text-center">
-        {% endif %}
+        <div class="col-xs-2 text-center">
           <div>
             <h1>Info</h1>
             <img src="/images/headshot1.png" class="img-responsive img-rounded center-block">
             <p></p>
-            <p><h4>Hi, I'm David Askew</h4></p>
+            <p><h4>I'm David Askew</h4></p>
             <p><h4>I build things</h4></p>
             <p><a class="extra" href="/">Homepage</a></p>
             <p><a class="extra" href="/contact.html">Contact Me</a></p>
@@ -46,17 +42,23 @@
             </div>
           
             {% include open_source.html %}
-          
+         
           </div>
         </div>
         
         {% if page.category == "posts" %}
         <div class="col-xs-8">
         {% else %}
-        <div class="col-xs-6">
+        <div class="col-xs-8">
         {% endif %}
           {{ content }}
         </div>
+        <div class="col-xs-2">
+            <h1>Tags</h1>            
+            <div id="tag_cloud">
+              {{ site | tag_cloud }} 
+            </div> 
+        </div> 
       </div>
       
       
