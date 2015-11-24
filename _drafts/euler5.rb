@@ -1,23 +1,22 @@
 #!/usr/bin/env ruby
+step = 2520
 
-hi = 1 
-min = 2520
-max = 300_000_000
-
-while (min < max)
-  hit = false
-  remainder = false 
-  if min.even?
-    1.upto(20) { |m|
-      hi = m if m > hi 
-      puts "#{min} - #{m} - #{hi}"
-      remainder = true if min%m != 0
-      min += 20 if remainder 
-      break if remainder
-    } 
-    hit = true if remainder == false
-  end
-
-   puts min if hit == true
-   break if hit == true 
+def DivByAll(num)
+  check_list = [20, 19, 18, 17, 16, 14, 13, 11 ]
+  check_list.each do |n|
+   if num%n != 0
+    return false 
+   end
+  end 
+  return true
 end
+
+while(step < 999_000_000)
+  puts step 
+  if DivByAll(step)
+    puts step 
+    exit
+  end
+  step += 2520 
+end
+
